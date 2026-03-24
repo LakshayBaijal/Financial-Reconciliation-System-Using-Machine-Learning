@@ -1,0 +1,55 @@
+
+========================================================
+   FINANCIAL RECONCILIATION REPORT
+========================================================
+
+GROUND TRUTH SETUP
+-------------------------------------------------------
+Bank transactions (B0001-B0308) must match Check 
+transactions (R0001-R0308) by numeric ID.
+This is a perfect one-to-one matching problem.
+
+OVERALL PERFORMANCE
+-------------------------------------------------------
+Total Bank Transactions:      308
+Successfully Matched:         288
+Failed to Match:              20
+Match Rate:                   93.51%
+
+CONFIDENCE DISTRIBUTION
+-------------------------------------------------------
+High Confidence (>= 0.85):    4
+Medium Confidence (0.70-0.85):71
+Low Confidence (0.00-0.70):   213
+
+CONFIDENCE STATISTICS (Matched Transactions Only)
+-------------------------------------------------------
+Average Confidence:           0.6485
+Minimum Confidence:           0.5006
+Maximum Confidence:           0.9468
+
+EVALUATION METRICS (Using Transaction ID Ground Truth)
+-------------------------------------------------------
+Ground Truth Rule: B0047 should match R0047 (by numeric ID)
+
+True Positives (Correct matches made):     288
+False Positives (Incorrect matches made):  0
+False Negatives (Correct matches missed):  20
+
+Precision = TP / (TP + FP) = 288 / (288 + 0)
+          = 1.0000
+          
+Recall    = TP / (TP + FN) = 288 / (288 + 20)
+          = 0.9351
+          
+F1 Score  = 2 * (Precision × Recall) / (Precision + Recall)
+          = 0.9664
+
+INTERPRETATION
+-------------------------------------------------------
+Precision: 1.0000 - Of the matches made, this % were correct
+Recall:    0.9351 - Of all correct matches possible, we found this %
+F1 Score:  0.9664 - Harmonic mean balancing precision and recall
+
+========================================================
+        

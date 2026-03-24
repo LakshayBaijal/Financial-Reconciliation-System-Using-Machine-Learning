@@ -1,5 +1,11 @@
 # Financial Reconciliation System
 
+## Report Link
+```br
+https://github.com/LakshayBaijal/Financial-Reconciliation-System-Using-Machine-Learning/blob/main/REPORT.md
+```
+
+
 An AI-powered system that automatically matches transactions between bank statements and check registers using BERT embeddings and the Hungarian algorithm.
 
 ## Quick Start

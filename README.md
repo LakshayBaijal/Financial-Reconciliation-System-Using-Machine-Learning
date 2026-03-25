@@ -34,6 +34,10 @@ python reconciliation_gui.py        # GUI mode
 - Recall: 0.9351 (93.51% found)
 - F1 Score: 0.9664 (96.64%)
 
+<img width="726" height="357" alt="Screenshot 2026-03-25 042212" src="https://github.com/user-attachments/assets/6ce627d4-3d94-4b8b-a7b0-05cb8b9af1bd" />
+
+
+
 ## Project Structure
 
 ```

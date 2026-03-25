@@ -109,12 +109,6 @@ venv\Scripts\activate              # Windows
 pip install -r requirements.txt
 ```
 
-**Requirements**:
-- Python 3.8+
-- pandas, numpy, scikit-learn
-- sentence-transformers (BERT)
-- torch, scipy
-
 ## Running
 
 ### CLI Mode
@@ -229,14 +223,6 @@ We use transaction ID alignment as ground truth:
 - **ML**: Sentence Transformers (BERT all-MiniLM-L6-v2)
 - **Algorithm**: Hungarian algorithm (optimal assignment)
 - **Libraries**: Pandas, NumPy, scikit-learn, SciPy
-
-## References
-
-**Paper**: Peter A. Chew. 2020. Unsupervised-Learning Financial Reconciliation. ICAIF 2020.
-
-**Libraries**:
-- sentence-transformers: https://www.sbert.net/
-- scipy.optimize.linear_sum_assignment: Hungarian algorithm
 
 ---
 
